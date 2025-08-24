@@ -29,11 +29,14 @@ The goal of this case study is to **modernize claims management** with a **scala
 
 This root repository references multiple service and application repositories that form the Proof of Concept (POC).  
 
-- [eclaim-frontend](https://github.com/guchhaitprasun/eClaim-frontend) → Angular SPA (Customer Portal)  
-- [eclaim-mobile](https://github.com/guchhaitprasun/eClaim-mobile) → React Native Mobile App  
-- [eclaim-claims-service](https://github.com/guchhaitprasun/eClaim-claim-service) → .NET 8 Microservice (Claims Management)  
-- [eclaim-notification-service](https://github.com/guchhaitprasun/eClaim-notification-service) → Node.js Microservice (Notifications)  
-- [Other services (to be added)]  
+| Repository | Description | Current Status |
+|------------|-------------|----------------|
+| [eclaim-frontend](https://github.com/guchhaitprasun/eClaim-frontend) | Angular SPA (Customer Portal) | ![Static Badge](https://img.shields.io/badge/Web%20UI-Scaffolded-green) <br> ![Static Badge](https://img.shields.io/badge/Not%20Deployed-red)|
+| [eclaim-mobile](https://github.com/guchhaitprasun/eClaim-mobile) | React Native Mobile App | ![Static Badge](https://img.shields.io/badge/Mobile%20UI-Scaffolded-green) <br> ![Static Badge](https://img.shields.io/badge/Not%20Deployed-red) |
+| [eclaim-claims-service](https://github.com/guchhaitprasun/eClaim-claim-service) | .NET 8 Microservice (Claims Management) | ![Static Badge](https://img.shields.io/badge/Service-Scaffolded-green) <br>  ![Static Badge](https://img.shields.io/badge/Not%20Deployed-red) |
+| [eclaim-notification-service](https://github.com/guchhaitprasun/eClaim-notification-service) | Node.js Microservice (Notifications) | ![Static Badge](https://img.shields.io/badge/ServiceI-Scaffolded-green)  <br> ![Static Badge](https://img.shields.io/badge/Not%20Deployed-red) |
+| Other services (to be added) | Future integrations (Car Rental, Workshop APIs, etc.) | ⏳ Planned |
+
 
 ⚠️ **Note:** The POC is **partially implemented** and not fully deployed due to lack of Azure subscriptions. Local scaffolding exists in these repositories.  
 
